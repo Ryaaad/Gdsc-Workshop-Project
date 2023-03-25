@@ -1,0 +1,30 @@
+[
+    {
+        "Name":"Salmon Salad",
+        "Calories":150,
+        "img":"../Images/salad.png",
+        "Time":2,
+        "person":2
+    },
+    {
+        "Name":"Raw Salmon Salad",
+        "Calories":1700,
+        "img":"../Images/Salmon.png",
+        "Time":25,
+        "person":4
+    },
+    {
+        "Name":"Chicken Salad",
+        "Calories":1050,
+        "img":"../Images/Salmon.png",
+        "Time":20,
+        "person":4
+    },
+    {
+        "Name":"Salmon Salad",
+        "Calories":150,
+        "img":"../Images/Salmon.png",
+        "Time":2,
+        "person":2
+    }
+]

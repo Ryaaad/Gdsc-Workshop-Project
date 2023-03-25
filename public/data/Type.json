@@ -1,0 +1,18 @@
+[
+    {
+        "Type":"Salad",
+        "Type_Nbr":5,
+        "Type_Img":"../Images/salad.png"
+    },
+    {
+        "Type":"Sea Food",
+        "Type_Nbr":15,
+        "Type_Img":"../Images/Salmon.png"
+    },
+    {
+        "Type":"Chicken",
+        "Type_Nbr":17,
+        "Type_Img":"../Images/stack.png"
+    }
+
+]

@@ -5,6 +5,7 @@
 }
 .App {
  width: 100%;
+ min-height: 100vh;
  padding-bottom: 2rem;
  position: relative;
  background-size: cover;
@@ -17,6 +18,14 @@
   width: 550px;
   height: 550px;
 }
+
+
+/******************************************************************************************************
+******************************************************************************************************
+                                              Menu 
+******************************************************************************************************
+*******************************************************************************************************/
+
 .Menu{
   height: 320px;
   border-radius: 10px;
@@ -41,6 +50,14 @@ transform: translate(5%,20%);
   height: 40px;
 }
 
+
+/******************************************************************************************************
+******************************************************************************************************
+                                             Items 
+******************************************************************************************************
+*******************************************************************************************************/
+
+
 .Items{
   border-radius: 20px;
   width: 215px;
@@ -63,20 +80,20 @@ transform: translate(5%,20%);
   position: absolute;
 
 }
-.ItemTitle{
+.Item_Title{
   margin-top: 120px;
   text-align: center;
   font-weight: 700;
   font-size: 16px;
 }
-.ItemSousTitle{
+.Item_Sous_Title{
   text-align: center;
   font-size: 12px;
   margin-top: 4px;
   font-weight: 600;
   color: #ACACAC;
 }
-.ItemSousTitle2{
+.Item_Sous_Title2{
   text-align: center;
   font-size: 13px;
   margin-top: 4px;
@@ -97,7 +114,7 @@ transform: translate(5%,20%);
   justify-content: space-between;
   width: 100%;
 }
-.Itemcontainer{
+.Item_container{
   margin-top: 150px;
 display: flex;
 align-items: center;
@@ -124,13 +141,15 @@ gap: 20px;
   font-size: 18px;
 }
 .Type_img{
-  width: 80px;
+  width: 70px;
+  height: 70px;
 }
 .Type:hover{
   padding-left: 5px;
 }
 .Type{
   display: flex;
+  margin-top: 10px;
   align-items: center;
   font-weight: 600;
   cursor: pointer;
