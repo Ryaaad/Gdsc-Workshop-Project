@@ -1,6 +1,6 @@
 import decor from "../Images/MenuDecoration.png"
 import { useEffect,useState } from "react"
-const Menu = () => {
+const Menu = (props) => {
     const [Data, setData] = useState([]);
 
     useEffect(() => {
@@ -8,7 +8,6 @@ const Menu = () => {
         const response =await fetch(`${process.env.PUBLIC_URL}/data/Type.json`);
         const json = await response.json();
         console.log(json);
-        console.log(response);
         setData(json);
       }
 
@@ -23,7 +22,7 @@ const Menu = () => {
             </div>
       <div className="Types_Container">
       {Data.map(data=>{
-        return <div key={data.Type} className="Type" >
+        return <div key={data.Type} className="Type" onClick={()=> props.setType(data.Type) } >
                <div className="Type_Gap">
                <img src={data.Type_Img} alt="" className="Type_img" />
                <p className="Type_Text">{data.Type}</p>

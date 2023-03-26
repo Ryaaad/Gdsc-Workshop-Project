@@ -9,7 +9,7 @@
     {
         "Name":"Raw Salmon Salad",
         "Calories":10,
-        "img":"../Images/Salmon.png",
+        "img":"../Images/stack.png",
         "Time":25,
         "person":4
     },
@@ -23,7 +23,7 @@
     {
         "Name":"Shrimp Cocktail",
         "Calories":150,
-        "img":"../Images/Salmon.png",
+        "img":"../Images/chicken.png",
         "Time":20,
         "person":2
     }
