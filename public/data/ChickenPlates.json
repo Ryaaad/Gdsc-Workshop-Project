@@ -1,27 +1,27 @@
 [
     {
-        "Name":"Salmon Salad",
+        "Name":"grilled chicken",
         "Calories":150,
         "img":"../Images/salad.png",
         "Time":2,
         "person":2
     },
     {
-        "Name":"Raw Salmon Salad",
-        "Calories":1700,
+        "Name":"Chicken Salad",
+        "Calories":100,
         "img":"../Images/Salmon.png",
-        "Time":25,
-        "person":4
+        "Time":5,
+        "person":2
     },
     {
-        "Name":"Chicken Salad",
+        "Name":"Fried Chicken Shoulder",
         "Calories":1050,
         "img":"../Images/Salmon.png",
         "Time":20,
         "person":4
     },
     {
-        "Name":"Salmon Salad",
+        "Name":"Peruvian chicken stew",
         "Calories":150,
         "img":"../Images/Salmon.png",
         "Time":2,
