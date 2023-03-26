@@ -18,18 +18,15 @@
   width: 550px;
   height: 550px;
 }
-
 /******************************************************************************************************
-******************************************************************************************************
                                               Menu 
-******************************************************************************************************
 *******************************************************************************************************/
 
 .Menu{
   height: 320px;
   border-radius: 10px;
   width: 370px;
-transform: translate(5%,20%);
+transform: translate(5%,10%);
   background-color:rgba(172, 172, 172, 0.2);
   padding:20px ;
 }
@@ -48,15 +45,9 @@ transform: translate(5%,20%);
 .Menu_Img{
   height: 40px;
 }
-
-
 /******************************************************************************************************
-******************************************************************************************************
                                              Items 
-******************************************************************************************************
 *******************************************************************************************************/
-
-
 .Items{
   border-radius: 20px;
   width: 215px;
@@ -71,16 +62,16 @@ transform: translate(5%,20%);
   padding-left: 20px;
 }
 .Items_Img{
-  width: 211px;
-  height: 210px;
-  top: -32%;
+  width: 151px;
+  height: 150px;
+  top: -20%;
   right: 50%;
   transform: translateX(50%);
   position: absolute;
 
 }
 .Item_Title{
-  margin-top: 120px;
+  margin-top: 115px;
   text-align: center;
   font-weight: 700;
   font-size: 16px;
@@ -88,7 +79,7 @@ transform: translate(5%,20%);
 .Item_Sous_Title{
   text-align: center;
   font-size: 12px;
-  margin-top: 4px;
+  margin-top: 6px;
   font-weight: 600;
   color: #ACACAC;
 }
@@ -99,7 +90,7 @@ transform: translate(5%,20%);
   font-weight: 600;
   color:#0c0c0c;
 }
-.ItemLine{
+.Item_Line{
   margin-top: 15px;
   height: 1.5px;
   width: 95%;
@@ -114,7 +105,7 @@ transform: translate(5%,20%);
   width: 100%;
 }
 .Item_container{
-  margin-top: 150px;
+  margin-top: 100px;
 display: flex;
 align-items: center;
 justify-content:space-between;
@@ -123,9 +114,7 @@ padding-right: 50px;
 gap: 20px;
 }
 /******************************************************************************************************
-******************************************************************************************************
                                               TYPE 
-******************************************************************************************************
 *******************************************************************************************************/
 
 .Types_Container{
@@ -143,9 +132,7 @@ gap: 20px;
   width: 70px;
   height: 70px;
 }
-.Type:hover{
-  padding-left: 5px;
-}
+.Type:hover{ padding-left: 5px;}
 .Type{
   display: flex;
   margin-top: 10px;
