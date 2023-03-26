@@ -2,14 +2,14 @@
     {
         "Name":"grilled chicken",
         "Calories":150,
-        "img":"../Images/salad.png",
+        "img":"../Images/chicken4.png",
         "Time":2,
         "person":2
     },
     {
         "Name":"Chicken Salad",
         "Calories":100,
-        "img":"../Images/Salmon.png",
+        "img":"../Images/chicken.png",
         "Time":5,
         "person":2
     },
@@ -23,7 +23,7 @@
     {
         "Name":"Peruvian chicken stew",
         "Calories":150,
-        "img":"../Images/Salmon.png",
+        "img":"../Images/chickenn.png",
         "Time":2,
         "person":2
     }

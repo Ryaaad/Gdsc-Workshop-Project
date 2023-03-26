@@ -15,7 +15,7 @@ const Menu = (props) => {
 
     }, []);
     return ( 
-        <div  className="Menu" >
+        <div className="Menu" >
             <div className="container_Menu">
          <h2 className="Menu_Title">Menu</h2>
     <img src={decor} alt="" className="Menu_Img" />

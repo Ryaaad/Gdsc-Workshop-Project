@@ -7,14 +7,14 @@
         "person":2
     },
     {
-        "Name":"Raw Salmon Salad",
+        "Name":"Oysters Rockefeller",
         "Calories":10,
-        "img":"../Images/stack.png",
+        "img":"../Images/Seafood2.png",
         "Time":25,
         "person":4
     },
     {
-        "Name":"Oysters Rockefeller",
+        "Name":"Raw Salmon Salad",
         "Calories":10,
         "img":"../Images/Salmon.png",
         "Time":50,
@@ -23,7 +23,7 @@
     {
         "Name":"Shrimp Cocktail",
         "Calories":150,
-        "img":"../Images/chicken.png",
+        "img":"../Images/Seafood.png",
         "Time":20,
         "person":2
     }
