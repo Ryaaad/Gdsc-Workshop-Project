@@ -13,11 +13,6 @@ This project includes the following features:
 - Fetching data with the fetch method
 - working with json files
 
-### 💻 Technologies Used
-- React
-- HTML/CSS
-- JavaScript
-
 ### 🛠️ Getting Started
 To get started with this project, you will need to follow these steps:
 
@@ -41,7 +36,17 @@ To get started with this project, you will need to follow these steps:
    npm start
 6. open your browser and navigate to http://localhost:3000 to view the app.   
 
-
+ # Adding a background image
+ 
+ for now your Project should look like This : 
+ 
+ 
+ To add a background image to a React component, you can use the backgroundImage CSS property along with the url() function to specify the image file. Like This : 
+ ```javascript
+ import Backround from './Images/Backround.png'
+  <div style={{backgroundImage: `url(${Backround})` }} className="App ">
+```
+Note that the image file must be imported into the component and its path must be relative to the current file. Also, any assets that are not in the ./src directory cannot be processed by Webpack and therefore cannot be displayed.
 
  # Building the Menu
 
