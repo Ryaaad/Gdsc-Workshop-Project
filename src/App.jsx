@@ -1,11 +1,10 @@
 import './App.css';
 import decor from "./Images/MenuDecoration.png"
-import Backround from './Images/Backround.png'
 import img from './Images/salad.png'
 
 function App() {
   return (
-    <div style={{backgroundImage: `url(${Backround})` }} className="App ">
+    <div className="App ">
     <img src={img} alt="" className='ImgCenter' />
    
     <div  className="Menu" >
