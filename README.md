@@ -27,9 +27,9 @@ To get started with this project, you will need to follow these steps:
    npm install
 4. Navigate to the project directory:
 
-```bash
-   cd myproject   
-```   
+   ```bash
+   cd starter 
+   ```   
 5. Start the development server by running the following command:
 
    ```bash
@@ -51,20 +51,34 @@ Note that the image file must be imported into the component and its path must b
 
  # Building the Menu
 
-To Code For the Menu is in the App.js File : 
+The Code For the Menu is in the App.js File : 
 
-```javascript
-// Menu.js
+ ```javascript
+ // Menu.js
 
-  return (
   <div  className="Menu" >
             <div className="container_Menu">
          <h2 className="Menu_Title">Menu</h2>
     <img src={decor} alt="" className="Menu_Img" />
     </div>
  
+ ```
+ 
+but since we're working with React, we'll put this code in a separate component. This is because it's good practice to keep our code modular and reusable. By separating our menu code into its own component, we can reuse it throughout our app and make changes to it in one place.
+To Do That Create File that Ends with .js or .jsx put the code in the return : 
+
+ ```javascript
+// Menu.js
+  import decor from "../Images/MenuDecoration.png"
+   const Menu=()=>{
+  
+  return ( 
+  Menu code Here
+  )
+   }
+  export default App;
+ 
 ```
-since we're working with React, we'll put this code in a separate component. This is because it's good practice to keep our code modular and reusable. By separating our menu code into its own component, we can reuse it throughout our app and make changes to it in one place.
 
 To use the Menu component in our App.js file, we'll need to import it:
 
