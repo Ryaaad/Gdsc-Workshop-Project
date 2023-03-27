@@ -169,13 +169,13 @@ To add props to the components
 
  ```javascript 
    import './App.css';
-import { useEffect,useState } from "react"
-import Backround from './Images/Backround.png'
-import salad from './Images/salad.png'
-import chicken from './Images/stack.png'
-import seafood from './Images/Salmon.png'
-import Menu from './Componants/Menu'
-function App() {
+  import { useEffect,useState } from "react"
+  import Backround from './Images/Backround.png'
+  import salad from './Images/salad.png'
+  import chicken from './Images/stack.png' 
+  import seafood from './Images/Salmon.png'
+  import Menu from './Componants/Menu'
+  function App() {
   const [Data, setData] = useState([]);
   const [Type,setType]=useState("Chicken");
   const [img,setimg]=useState(chicken);
@@ -205,26 +205,26 @@ export default App;
  ``` 
  
  
- ### Item 
+ ## Building Item  
  
  in the same way as thee Menu componants we'll write the code in new componants and we'll need to import it in App.js and pass the needed props:
  
  ```javascript 
-import React from 'react';
-import Menu from './Item';
+ import React from 'react';
+ import Menu from './Item';
 
-function App() {
+  function App() {
   return (
     <div>
     ...........
       <Item key={data.Name}  Name={data.Name} Calories={data.Calories} img={data.img} Time={data.Time} person={data.person}  />
       ........
     </div>
-  );
-}
+   );
+  }
 
-export default App;
-```
+ export default App;
+ ```
  By Now the Code should be like this: 
  ### Item.jsx : 
  ```javascript 
@@ -341,7 +341,7 @@ export default App;
 ```
 
  
- And you should Have the project working as The video 👆
+ And Now you should Have the project working as The video 👆
  
  
  
