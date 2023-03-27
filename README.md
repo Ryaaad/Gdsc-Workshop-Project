@@ -1,5 +1,5 @@
 # DishDash
-In this project, we will be building this Project with React  This project will help you practice everything in React, from components to working with state and props to fetching data with the fetch method.
+In this project, we will be building this website with React  This project will help you practice everything in React, from components to working with state and props to fetching data with the fetch method.
 
 [React App.webm](https://user-images.githubusercontent.com/87044522/227779611-5120d0e0-a1ed-4573-8ed1-27a43babec0c.webm)
 
