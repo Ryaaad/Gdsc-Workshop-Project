@@ -25,16 +25,11 @@ To get started with this project, you will need to follow these steps:
 
    ```bash
    npm install
-4. Navigate to the project directory:
-
-   ```bash
-   cd starter 
-   ```   
-5. Start the development server by running the following command:
+4. Start the development server by running the following command:
 
    ```bash
    npm start
-6. open your browser and navigate to http://localhost:3000 to view the app.   
+5. open your browser and navigate to http://localhost:3000 to view the app.   
 
  # Adding a background image
  
